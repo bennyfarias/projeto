@@ -8,32 +8,41 @@
     
 </head>
 <body>
-    <div class="img">
-        <img src="img/image.png" alt="Minha foto de perfil">
-        
+    <header>
+        <figure class="img">
+            <img src="img/image.png" alt="Minha foto de perfil">
+        </figure>
+        <div class="cabecalho">
+            <h1>Benjamin Farias Silva</h1>
+            <h2>Fullstack</h2>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav class="links" aria-label="Navegação principal">
+            <ul>
+                <li><a href="https://twitter.com">Sobre mim</a></li>
+                <li><a href="https://instagram.com">Meus projetos</a></li>
+                <li><a href="https://linkedin.com">Meus artigos</a></li>
+                <li><a href="https://github.com/bennyfarias">Meu portfólio</a></li>
+                <li><a href="https://test.com">Meu Blog</a></li>
+            </ul>
+        </nav>
+        <footer class="footer">
+            <p>Me acompanhe mais</p>
+            <p>Me siga nas redes</p>
+            <p>Benjaminfarias60@gmail.com</p>
+        </footer>
     </div>
 
-   <div class="cabecalho">
-    <h1>Benjamin Farias Silva</h1>
-    <h2> Fullstack</h2>
-   </div>
 
-<div class="links">
-         <p><a href="twitter.com">Sobre mim</a></p>
-         <p><a href="instagra.com">Meus projetos</a></p>
-         <p><a href="Linkedin.com">Meus artigos</a></p>
-         <p><a href="github.com/bennyfarias">Meu portfólio</a></p>
-         <p><a href="test.com">Meu Blog</a></p>
-       
-        
-    </ul>
-</div>  
+<button id="themeBtn" title="Ativar modo escuro">🌙</button>
 
-<div class="footer">
-    <footer>Me acompanhe mais</footer>
-    <footer> Me siga nas redes</footer>
-    <footer>Benjaminfarias60@gmail.com</footer>
-</div>
+<script src="js/javascript.js"></script>
+<script>
+    
+    document.getElementById('themeBtn').addEventListener('click', toggleTheme);
+</script>
 
 </body>
 
